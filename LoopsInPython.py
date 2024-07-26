@@ -41,3 +41,34 @@ for t in range(100):
         continue #Skip this iteration
     print(t)
 #----------------------
+
+#pass is a null statement in python, instructs to do nothing
+for loop_item in range(50):
+   pass
+#Now this whole loop is skipped
+#--------------------------
+
+#Wanna print a table of 16 using f statement
+n=int(input("Enter a number: "))  #remb, not like, n=input("Enter a number: ") Xwrong
+
+for i in range(1,21):
+    print(f"{n} X {i}= {n*i}")
+#---------------------------
+
+#Print all the names starting with N in list
+name_list=["Komal", "Nihar", "Nikhil", "Vaibhav", "Divyam", "Nirup", "Tushar"]
+for name in name_list:
+    if(name.startswith("N")):
+        print(f"Name start with N is {name}")
+#---------------------------
+
+#Code for Factorial
+number=int(input("Enter a Number: "))
+product=1
+for d in range(1, number+1):
+    product=product*d
+print(f"Factorial of {number} is {product}")
+#-----------------------------
+
+#Skipping Patterns :)
+
