@@ -58,5 +58,12 @@ set01.add('20') #What is expected size of set01? probably 3
 
 print(set01) #But it's 2, cauz 20==20.0 (== oprater checks value only, nomaters datatype)
 
+#---------------
+
+#List could'nt be added in a set, never! 
+#set02=("Nihar", "Rohit", False, 43, [1,2,3]) wrong!!
+
+  
+
 
 
